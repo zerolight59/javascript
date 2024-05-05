@@ -10,4 +10,8 @@ console.log(myName);
 myName=8;
 console.log(myName);
 
-let lastName=""
+let lastName="Sankar";
+console.log(lastName);
+
+const pi =3.14
+console.log(pi);
