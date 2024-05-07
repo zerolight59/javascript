@@ -23,3 +23,8 @@ var dec = 20;
 console.log(dec);
 dec--;
 console.log(dec);
+
+
+
+var rem =45 % 5;
+console.log(rem);
