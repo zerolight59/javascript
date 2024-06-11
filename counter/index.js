@@ -1,0 +1,1 @@
+const dec = document.getElementById("decBtn")
