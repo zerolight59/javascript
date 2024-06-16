@@ -19,5 +19,8 @@ while (running) {
     if (guess===ans) {
         window.alert(`you won on attempt number${attempts}`);
         running=false;
+    }
+    else if (guess<min || guess>max) {
+        window.alert(`number must be between ${min} - ${max}`);
     } 
 }
