@@ -28,7 +28,7 @@ label{
     font-size: 1.5em;
     font-weight: bold;
 }
-button{
+#button{
     margin-top: 15px;
     background-color: hsla(0, 100%, 65%, 0.779);
     font-size: 1.5em;
@@ -38,7 +38,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+#button:hover{
     background-color: hsl(0, 81%, 39%);
     /* transition: .5s; */
 }

@@ -5,7 +5,7 @@ const toCelsius=document.getElementById("toCelsius");
 const result=document.getElementById("result");
 let temp;
 
-function Convert(params) {
+function Convert() {
     if (toFahrenhite.checked) {
         temp=Number(textBox.value);
         temp=temp * 9 /5 +32;
