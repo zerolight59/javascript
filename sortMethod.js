@@ -12,3 +12,22 @@
 // people.sort((a,b)=>a.name.localeCompare(b.name));
 
 // console.log(people)
+
+
+//suffel a card
+
+
+
+
+const card=['A',1,2,3,4,6,7,8,9,'j','q','k'];
+suffle(card);
+console.log(card)
+
+
+function suffle(a) {
+    for(let i = a.length - 1; i>0;i--){
+        const r = Math.floor(Math.random() * (i+1));
+
+        [a[i],a[r]] = [a[r],a[i]]
+    }
+}
